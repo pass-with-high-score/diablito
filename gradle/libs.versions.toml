@@ -3,8 +3,8 @@
 compileSdk = "35"
 minSdk = "21"
 targetSdk = "35"
-versionCode = "2"
-versionName = "1.1.0"
+versionCode = "1"
+versionName = "1.0.0"
 jvmTarget = "11"
 agp = "8.9.3"
 
@@ -35,8 +35,6 @@ androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", versi
 ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 ui = { module = "androidx.compose.ui:ui" }
 ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "uiTooling" }
-
-[bundles]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
